@@ -1,0 +1,10 @@
+Weather data source: https://www.wunderground.com/history/daily/bd/dhaka/VGHS/
+
+Dengue data sources: 
+		https://dashboard.dghs.gov.bd/pages/heoc_dengue_v1
+
+Rainfall data source: https://live8.bmd.gov.bd/map/1/d/2025-01-01
+
+
+Dengue-related research paper: https://www.researchgate.net/publication/369949814_Recent_outbreak_of_dengue_in_Bangladesh_A_threat_to_public_health
+			
