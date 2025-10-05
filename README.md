@@ -64,6 +64,16 @@ An anomaly day is defined as:
 
 ***
 
+## 📈 Tableau Public Dashboard
+
+The final, interactive visualization of this analysis is hosted on Tableau Public, allowing for exploration of the trends, correlations, and anomalies:
+
+**Tableau Public Dashboard Link:**
+[Mosquitoes and Monsoons: An Analytical View of Rainfall vs. Dengue Trends in Dhaka (2020-2025)](https://public.tableau.com/app/profile/al.amin.sheikh/viz/MosquitoesandMonsoonsAnAnalyticalViewofRainfallvsDengueTrendsinDhaka2020-2025/Intro)
+
+
+***
+
 ## 💻 Requirements and Setup
 
 To run the data processing and analysis scripts, you'll need the following Python libraries. It's essential to use a virtual environment.
@@ -84,13 +94,3 @@ source venv/bin/activate
 
 # 3. Install the required packages
 pip install -r requirements.txt
-
-
-***
-
-## 📈 Tableau Public Dashboard
-
-The final, interactive visualization of this analysis is hosted on Tableau Public, allowing for exploration of the trends, correlations, and anomalies:
-
-**Tableau Public Dashboard Link:**
-[Mosquitoes and Monsoons: An Analytical View of Rainfall vs. Dengue Trends in Dhaka (2020-2025)](https://public.tableau.com/app/profile/al.amin.sheikh/viz/MosquitoesandMonsoonsAnAnalyticalViewofRainfallvsDengueTrendsinDhaka2020-2025/Intro)
