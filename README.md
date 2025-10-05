@@ -30,6 +30,13 @@ This project involved a robust data acquisition phase, scraping approximately **
 | **Dengue Case Data** | `https://dashboard.dghs.gov.bd/pages/heoc_dengue_v1` |
 | **Rainfall Data** | `https://live8.bmd.gov.bd/map/1/d/2025-01-01` |
 
+### Anomaly Detection Criteria
+
+An anomaly day is defined as:
+> A day with **more than 20 dengue cases** AND the **previous 5 days had zero rainfall**.
+
+*(Units: Temperature in °C, Rainfall in mm)*
+
 ***
 
 ## 🔍 Key Findings
@@ -53,12 +60,6 @@ This project involved a robust data acquisition phase, scraping approximately **
     * If daily rainfall **exceeds $130$ mm**, the chance of a dengue case increase is very low, as heavy rain may flush out mosquito breeding sites.
     * Basically, days with **no current rain** but that have **previous days with rainfall** have a high chance for a dengue case increase.
 
-### Anomaly Detection Criteria
-
-An anomaly day is defined as:
-> A day with **more than 20 dengue cases** AND the **previous 5 days had zero rainfall**.
-
-*(Units: Temperature in ${}^{\circ}C$, Rainfall in mm)*
 
 ***
 
