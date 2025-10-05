@@ -66,6 +66,7 @@ An anomaly day is defined as:
 
 ## 📈 Tableau Public Dashboard
 
+![alt text](image.png)
 The final, interactive visualization of this analysis is hosted on Tableau Public, allowing for exploration of the trends, correlations, and anomalies:
 
 **Tableau Public Dashboard Link:**
