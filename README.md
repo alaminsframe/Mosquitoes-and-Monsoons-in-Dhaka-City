@@ -1,4 +1,5 @@
-## 🦟 Mosquitoes and Monsoons: An Analytical View of Rainfall vs. Dengue Trends in Dhaka (2020-2025)
+# 🦟 Mosquitoes and Monsoons
+### *An Analytical View of Rainfall vs Dengue Trends in Dhaka (2020–2025)*
 
 This repository contains the data scraping, cleaning, analysis, and visualization scripts for a project examining the complex relationship between **rainfall, weather parameters, and Dengue Fever incidence in Dhaka, Bangladesh, from 2020 to 2025.**
 
@@ -83,3 +84,13 @@ source venv/bin/activate
 
 # 3. Install the required packages
 pip install -r requirements.txt
+
+
+***
+
+## 📈 Tableau Public Dashboard
+
+The final, interactive visualization of this analysis is hosted on Tableau Public, allowing for exploration of the trends, correlations, and anomalies:
+
+**Tableau Public Dashboard Link:**
+[Mosquitoes and Monsoons: An Analytical View of Rainfall vs. Dengue Trends in Dhaka (2020-2025)](https://public.tableau.com/app/profile/al.amin.sheikh/viz/MosquitoesandMonsoonsAnAnalyticalViewofRainfallvsDengueTrendsinDhaka2020-2025/Intro)
