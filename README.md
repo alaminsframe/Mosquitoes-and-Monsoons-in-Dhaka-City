@@ -80,23 +80,35 @@ The final, interactive visualization of this analysis is hosted on Tableau Publi
 
 ***
 
-## 💻 Requirements and Setup
+## 🔧 Requirements and Setup
 
-To run the data processing and analysis scripts, you'll need the following Python libraries. It's essential to use a virtual environment.
+To run the data processing and analysis scripts, follow the steps below. It's recommended to use a **virtual environment** to manage dependencies.
 
-### Virtual Environment Setup
+### Step 1: Clone the Repository
 
 ```bash
-# 1. Create a virtual environment (named 'venv')
+git clone https://github.com/alaminsframe/Weather-Dengue-Trends-in-Dhaka.git
+cd Weather-Dengue-Trends-in-Dhaka
+```
+
+### Step 2: Create a Virtual Environment
+
+```bash
 python -m venv venv
+```
 
-# 2. Activate the virtual environment
+### Step 3: Activate the Virtual Environment
 
+```bash
 # On Windows:
 .\venv\Scripts\activate
 
 # On macOS/Linux:
 source venv/bin/activate
+```
 
-# 3. Install the required packages
+### Step 4: Install Required Packages
+
+```bash
 pip install -r requirements.txt
+```
