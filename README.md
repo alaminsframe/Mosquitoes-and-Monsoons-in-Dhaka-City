@@ -5,21 +5,26 @@ This repository contains the data scraping, cleaning, analysis, and visualizatio
 
 ***
 
+## 🧭 Motivation
+
+While searching for an interesting project idea, a close friend of mine was affected by dengue. That experience made me realize the real-world impact of the disease and inspired me to explore its patterns. Given the strong seasonal nature of dengue in Dhaka, I decided to analyze its connection with weather parameters like rainfall, temperature, and humidity.
+
+***
+
 ## 🎯 Objectives
 
 The primary goals of this analytical project are to:
 
 1.  **Visualize Seasonal Patterns** of Rainfall and Dengue Cases.
 2.  **Show Statistical Correlation** Between Rainfall and Dengue Incidence.
-3.  **Illustrate Time-Lag Effects** Between Rainfall and Dengue Outbreaks.
-4.  **Display the Impact of Temperature and Humidity** on Dengue Risk.
-5.  **Detect and Highlight Anomalies or Outliers** (Identify unusual patterns such as dengue spikes without recent rainfall or during off-season months using alerts, annotations, or color-coded markers.)
+3.  **Display the Impact of Temperature and Humidity** on Dengue Risk.
+4.  **Detect and Highlight Anomalies or Outliers** (Identify unusual patterns such as dengue spikes without recent rainfall or during off-season months using alerts, annotations, or color-coded markers.)
 
 ***
 
 ## 💡 Overview
 
-This project involved a robust data acquisition phase, scraping approximately **12,000 rows** of time-series data from various websites using **Selenium** for dynamic content handling and **Beautiful Soup** for static HTML parsing. Following acquisition, the raw data underwent extensive cleaning and processing using **Pandas** and **NumPy** to prepare a unified and reliable dataset for the final analytical dashboard. The analysis focuses on identifying key meteorological drivers and their temporal relationship with dengue case reports to inform public health strategies and improve early warning systems.
+This project started with collecting around **12,000 rows** of time-series data from multiple websites. I used **Selenium** to handle pages with dynamic content and **Beautiful Soup** for simpler static pages. After gathering the data, I cleaned and processed everything using **Pandas** and **NumPy** to create a clean, reliable dataset for analysis and visualization.
 
 ***
 
@@ -66,7 +71,7 @@ An anomaly day is defined as:
 
 ## 📈 Tableau Public Dashboard
 
-![alt text](image.png)
+![alt text](src/img/image.png)
 The final, interactive visualization of this analysis is hosted on Tableau Public, allowing for exploration of the trends, correlations, and anomalies:
 
 **Tableau Public Dashboard Link:**
