@@ -72,6 +72,14 @@ An anomaly day is defined as:
 ## 📈 Tableau Public Dashboard
 
 ![alt text](src/img/image.png)
+
+This dashboard explores how weather conditions—**rainfall**, **temperature**, and **humidity**—may influence the rise of **dengue cases** in **Dhaka**.
+
+- View **yearly totals** of dengue cases, rainfall, average humidity, and temperature.
+- See **daily anomalies vs normal days** based on weather patterns.
+- Explore **monthly trends** of dengue cases and rainfall across years.
+- Check the **top 5 days** with the highest dengue cases and the rainfall trends leading up to them.
+
 ![alt text](src/img/image2.png)
 The final, interactive visualization of this analysis is hosted on Tableau Public, allowing for exploration of the trends, correlations, and anomalies:
 
