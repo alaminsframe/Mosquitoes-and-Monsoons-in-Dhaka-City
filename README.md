@@ -74,7 +74,7 @@ An anomaly day is defined as:
 ### Overview Dashboard
 ![alt text](src/img/image.png)
 
-This Dashboard explores how weather conditions—**rainfall**, **temperature**, and **humidity**—may influence the rise of **dengue cases** in **Dhaka**.
+This Dashboard explores how weather conditions **rainfall**, **temperature**, and **humidity** may influence the rise of **dengue cases** in **Dhaka**.
 
 - View **yearly totals** of dengue cases, rainfall, average humidity, and temperature.
 - See **daily anomalies vs normal days** based on weather patterns.
