@@ -71,20 +71,29 @@ An anomaly day is defined as:
 
 ## 📈 Tableau Public Dashboard
 
+### Overview Dashboard
 ![alt text](src/img/image.png)
 
-This dashboard explores how weather conditions—**rainfall**, **temperature**, and **humidity**—may influence the rise of **dengue cases** in **Dhaka**.
+This Dashboard explores how weather conditions—**rainfall**, **temperature**, and **humidity**—may influence the rise of **dengue cases** in **Dhaka**.
 
 - View **yearly totals** of dengue cases, rainfall, average humidity, and temperature.
 - See **daily anomalies vs normal days** based on weather patterns.
 - Explore **monthly trends** of dengue cases and rainfall across years.
 - Check the **top 5 days** with the highest dengue cases and the rainfall trends leading up to them.
 
+### Relations Dashboard
 ![alt text](src/img/image2.png)
-The final, interactive visualization of this analysis is hosted on Tableau Public, allowing for exploration of the trends, correlations, and anomalies:
+
+What You Can View on This Dashboard.
+
+- View the relationship between **Temperature & Humidity vs Dengue**
+- Understand how **Humidity and Temperature impact Anomalies**
+- Analyze **Yearly Dengue and Rainfall Trends**
+- Explore **Monthly Dengue and Rainfall Patterns**
+- Discover the **Correlation Between Rainfall and Dengue**
 
 **Tableau Public Dashboard Link:**
-[Mosquitoes and Monsoons: An Analytical View of Rainfall vs. Dengue Trends in Dhaka (2020-2025)](https://public.tableau.com/app/profile/al.amin.sheikh/viz/MosquitoesandMonsoonsAnAnalyticalViewofRainfallvsDengueTrendsinDhaka2020-2025/Intro)
+[Mosquitoes and Monsoons: An Analytical View of Rainfall vs. Dengue Trends in Dhaka (2020-2025)](https://public.tableau.com/app/profile/al.amin.sheikh/viz/Analyzingweather-DenguecorrelationinDhaka20202025/Intro)
 
 
 ***
