@@ -93,7 +93,7 @@ What You Can View on This Dashboard.
 - Discover the **Correlation Between Rainfall and Dengue**
 
 **Tableau Public Dashboard Link:**
-[Mosquitoes and Monsoons: An Analytical View of Rainfall vs. Dengue Trends in Dhaka (2020-2025)](https://public.tableau.com/app/profile/al.amin.sheikh/viz/Analyzingweather-DenguecorrelationinDhaka20202025/Intro)
+[View Now](https://public.tableau.com/views/Analyzingweather-DenguecorrelationinDhaka20202025/Intro)
 
 
 ***
