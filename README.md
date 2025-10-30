@@ -48,7 +48,7 @@ An anomaly day is defined as:
 ## 📈 Tableau Public Dashboard
 
 ### Overview Dashboard
-![alt text](src/img/overview.png)
+![alt text](screenshots/overview.png)
 
 This Dashboard explores how weather conditions **rainfall**, **temperature**, and **humidity** may influence the rise of **dengue cases** in **Dhaka**.
 
@@ -58,7 +58,7 @@ This Dashboard explores how weather conditions **rainfall**, **temperature**, an
 - Check the **top 5 days** with the highest dengue cases and the rainfall trends leading up to them.
 
 ### Relations Dashboard
-![alt text](src/img/relations.png)
+![alt text](screenshots/relations.png)
 
 What You Can View on This Dashboard.
 
@@ -69,7 +69,7 @@ What You Can View on This Dashboard.
 - Discover the **Correlation Between Rainfall and Dengue**
 
 **Tableau Public Dashboard Link:**
-[View Now](https://public.tableau.com/views/Analyzingweather-DenguecorrelationinDhaka20202025/Intro)
+[View Now](https://public.tableau.com/app/profile/al.amin.sheikh/viz/MosquitoesandMonsoonsinDhakaCity/Intro)
 
 ***
 
