@@ -7,7 +7,7 @@ This repository contains the data scraping, cleaning, analysis, and visualizatio
 
 ## 🧭 Motivation
 
-While searching for an interesting project idea, a close friend of mine was affected by dengue. That experience made me realize the real-world impact of the disease and inspired me to explore its patterns. Given the strong seasonal nature of dengue in Dhaka, I decided to analyze its connection with weather parameters like rainfall, temperature, and humidity.
+A close friend of mine was affected by dengue. That experience made me realize the real-world impact of the disease and inspired me to explore its patterns. Given the strong seasonal nature of dengue in Dhaka, I decided to analyze its connection with weather parameters like rainfall, temperature, and humidity.
 
 ***
 
@@ -45,30 +45,6 @@ An anomaly day is defined as:
 
 ***
 
-## 🔍 Key Findings
-
-### Seasonal Trends
-* **Dengue Cases:** Cases typically begin to increase in **March/April**, reaching a **peak in September/October**, before starting a slight decrease. **February** consistently records the lowest number of cases.
-* **Rainfall:** Rainy days commence in **March**, with the highest rainfall peak observed in **June**. **January** is the month with the lowest average number of rainy days.
-
-### Key Performance Indicators (KPIs)
-* **2023** was the year with the **highest recorded dengue cases**, totaling around **110,000**. **August 2023** was the peak month, reporting approximately **29,000 cases**.
-* **2024** was the **most rainy year**, recording about **5,500 mm** of precipitation. **June 2024** was the most rainy month with roughly **1,800 mm**.
-* The months of **November, December, and January** contain the highest number of **anomaly days**.
-
-### Relations & Meteorological Impact
-* **Temperature & Humidity:** There is a strong positive correlation: as temperature and humidity increase, dengue cases also rise.
-    * The **highest risk window** is identified when **Temperature is $24-32^{\circ}C$** and **Humidity is $65-85\%$**.
-    * Risk is especially elevated with **Temperature between $28-32^{\circ}C$** and **Humidity between $70-85\%$**.
-    * Most anomaly days have **high humidity**, indicating that humidity is a persistent driver across various temperatures, while low humidity days rarely result in anomalies.
-* **Rainfall Dynamics:**
-    * Many days with **high dengue case counts** recorded **zero rainfall** on that specific day. This suggests that the *preceding days'* rainfall, which creates stagnant water pools, is a more critical factor than current-day rain.
-    * If daily rainfall **exceeds $130$ mm**, the chance of a dengue case increase is very low, as heavy rain may flush out mosquito breeding sites.
-    * Basically, days with **no current rain** but that have **previous days with rainfall** have a high chance for a dengue case increase.
-
-
-***
-
 ## 📈 Tableau Public Dashboard
 
 ### Overview Dashboard
@@ -94,6 +70,29 @@ What You Can View on This Dashboard.
 
 **Tableau Public Dashboard Link:**
 [View Now](https://public.tableau.com/views/Analyzingweather-DenguecorrelationinDhaka20202025/Intro)
+
+***
+
+## 🔍 Key Findings
+
+### Seasonal Trends
+* **Dengue Cases:** Cases typically begin to increase in **March/April**, reaching a **peak in September/October**, before starting a slight decrease. **February** consistently records the lowest number of cases.
+* **Rainfall:** Rainy days commence in **March**, with the highest rainfall peak observed in **June**. **January** is the month with the lowest average number of rainy days.
+
+### Key Performance Indicators (KPIs)
+* **2023** was the year with the **highest recorded dengue cases**, totaling around **110,000**. **August 2023** was the peak month, reporting approximately **29,000 cases**.
+* **2024** was the **most rainy year**, recording about **5,500 mm** of precipitation. **June 2024** was the most rainy month with roughly **1,800 mm**.
+* The months of **November, December, and January** contain the highest number of **anomaly days**.
+
+### Relations & Meteorological Impact
+* **Temperature & Humidity:** There is a strong positive correlation: as temperature and humidity increase, dengue cases also rise.
+    * The **highest risk window** is identified when **Temperature is $24-32^{\circ}C$** and **Humidity is $65-85\%$**.
+    * Risk is especially elevated with **Temperature between $28-32^{\circ}C$** and **Humidity between $70-85\%$**.
+    * Most anomaly days have **high humidity**, indicating that humidity is a persistent driver across various temperatures, while low humidity days rarely result in anomalies.
+* **Rainfall Dynamics:**
+    * Many days with **high dengue case counts** recorded **zero rainfall** on that specific day. This suggests that the *preceding days'* rainfall, which creates stagnant water pools, is a more critical factor than current-day rain.
+    * If daily rainfall **exceeds $130$ mm**, the chance of a dengue case increase is very low, as heavy rain may flush out mosquito breeding sites.
+    * Basically, days with **no current rain** but that have **previous days with rainfall** have a high chance for a dengue case increase.
 
 
 ***
