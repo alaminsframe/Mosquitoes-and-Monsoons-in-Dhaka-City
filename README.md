@@ -1,4 +1,4 @@
-# 🦟 Mosquitoes and Monsoons
+# 🦟 Mosquitoes and Monsoons in Dhaka City
 ### *An Analytical View of Rainfall vs Dengue Trends in Dhaka (2020–2025)*
 
 This repository contains the data scraping, cleaning, analysis, and visualization scripts for a project examining the complex relationship between **rainfall, weather parameters, and Dengue Fever incidence in Dhaka, Bangladesh, from 2020 to 2025.**
